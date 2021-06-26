@@ -1,0 +1,10 @@
+A=[12,-7,5,64,-14]
+for i in range(0,5):
+    if A[i]>0:
+        print(A[i],end=",")
+C=[12,14,-95,3]
+B=[]
+for i in range(0,4):
+    if C[i]>0:
+        B.append(C[i])
+print("\n",B)
